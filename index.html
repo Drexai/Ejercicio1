@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Assets/foto3.png" class="chefsito" id="top"> 
+        <img src="Assets/foto3.png" class="chefsito"> 
+    <h1>Mindhub Restó</h1>
+        <img src="Assets/foto3.png" class="chefsito"> 
+        <img src="Assets/foto3.png" class="chefsito" id="bottom"> 
+    </header>
+    <main>
+        <section id="left">
+            <div id="meatOption" >
+                <img src="Assets/foto1.jpg" alt="Bija" id="fotoCarne">
+                <p>Opción <span>Carne</span></p>
+            </div>
+            <div id=vegetableOption>
+                <img src="Assets/foto2.jpg" alt="Verginia" id="verdura">
+                <p>Opción <span>Verdura</span></p>
+            </div>
+            <div id="adviceOpciones">
+                *Todos nuestros platos vienen con acompañamiento
+            </div>
+        </section>
+        <section id="right">
+            <form>
+                <fieldset>
+                    <legend>Ingresa tu Pedido:</legend>
+                    <div id="imputAmarillo"> 
+                        <label id="divInsideAmarillo" for="imputInsideAmarillo">
+                            Ingresá tu nombre:              
+                        </label> 
+                        <input name='nombre' type='text' tabindex='1' id="imputInsideAmarillo">
+                    </div>
+                    <div id="rellenar">
+                        <h2 id="comer">¿Qué querés comer?</h2>
+                        <h2>Elegí todas las opciones que quieras!</h2>
+                        <div id="relleno">
+                            <div class="option" id="leftColumn1" >
+                                <label for="carne"> Carne: </label>
+                                <input type='checkbox' name='Comida' value='carne' id="carne"> 
+                            </div>
+                            <div class="option" id="leftColumn2">
+                                <label for="pollo"> Pollo: </label>
+                                <input type='checkbox' name='Comida' value='pollo' id="pollo" > 
+                            </div>
+                            <div class="option" id="rightColumn1">
+                                <label for="ensalada"> Ensalada: </label>
+                                <input type='checkbox' name='comida' value='ensalada' id="ensalada" >
+                            </div>
+                            <div class="option" id="rightColumn2">
+                                <label for="pastas"> Pastas: </label>
+                                <input type='checkbox' name='Comida' value='pastas' id="pastas" >
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar Pedido" id="submit">
+                </fieldset>
+            </form>
+         </section>
+    </main>
+        
+</body>
+<div></div>
+<footer>
+<p>Mindhub Cohort 21 - Julio 2021 - Todos los derechos reservados</p>
+</footer>
+</html>
